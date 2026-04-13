@@ -10,6 +10,7 @@
     "start:app": "node electron-start.js",
     "build:app": "npx electron-builder --win --x64",
     "publish:github": "node scripts/publish-updates.js github",
+    "publish:github:api": "node scripts/publish-github-release.js",
     "publish:generic": "node scripts/publish-updates.js generic",
     "publish:local": "node scripts/publish-updates.js local",
     "setup:github": "node scripts/setup-github-publish.js"
