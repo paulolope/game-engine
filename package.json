@@ -1,0 +1,55 @@
+{
+  "name": "game-engine3d",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Game Engine 3D",
+  "description": "Sketchfab OAuth + search + import helpers for Game Engine 3D",
+  "main": "electron.js",
+  "scripts": {
+    "test:sketchfab": "C:/MAMP/bin/php/php7.3.19/php.exe tests/run.php",
+    "start:app": "node electron-start.js",
+    "build:app": "npx electron-builder --win --x64",
+    "publish:github": "node scripts/publish-updates.js github",
+    "publish:generic": "node scripts/publish-updates.js generic",
+    "publish:local": "node scripts/publish-updates.js local",
+    "setup:github": "node scripts/setup-github-publish.js"
+  },
+  "dependencies": {
+    "@gltf-transform/cli": "^4.3.0",
+    "electron-updater": "^6.8.3"
+  },
+  "devDependencies": {
+    "electron": "^26.4.3",
+    "electron-builder": "^24.7.0"
+  },
+  "build": {
+    "appId": "com.gameengine3d.editor",
+    "productName": "GameEngine3D Editor",
+    "asar": false,
+    "files": [
+      "**/*",
+      "!tests/**",
+      "!tmp_*",
+      "!data/cache/**",
+      "!assets/textures/download.jpg",
+      "!assets/models/*.glb",
+      "!assets/models/sketchfab/**"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "paulolope",
+        "repo": "game-engine"
+      }
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "artifactName": "${productName}-${version}-win-${arch}.exe"
+    }
+  }
+}

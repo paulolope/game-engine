@@ -1,0 +1,41 @@
+{
+    "version": 1,
+    "records": [
+        {
+            "localId": "skfb_9554eb11431a4b268a34b11b47b4385d",
+            "sketchfabModelUid": "9554eb11431a4b268a34b11b47b4385d",
+            "title": "Shaggy Angora Goat",
+            "authorName": "iRahulRajput",
+            "licenseName": "CC Attribution",
+            "licenseUrl": "http://creativecommons.org/licenses/by/4.0/",
+            "sourceUrl": "https://sketchfab.com/3d-models/shaggy-angora-goat-9554eb11431a4b268a34b11b47b4385d",
+            "thumbnailUrl": "https://media.sketchfab.com/models/9554eb11431a4b268a34b11b47b4385d/thumbnails/d0d6760bc0504e8baa79c21c9ff84781/2cbbe1555f1d43ada02f8d59103df579.jpeg",
+            "localFilePath": "assets/models/sketchfab/shaggy-angora-goat-9554eb1143.glb",
+            "importedAt": "2026-04-13T02:08:26+00:00",
+            "hash": "97c6a9e1fe471cf25a0460b9a86abe933424d21d",
+            "cacheKey": "6e466dbe4cf77e73b2e606b96be5d1c3aa3aa948",
+            "importFormat": "glb",
+            "downloadSourceType": "glb",
+            "attribution": "iRahulRajput | CC Attribution"
+        },
+        {
+            "localId": "skfb_c1316617e31d48c597f0687faaf020b2",
+            "sketchfabModelUid": "c1316617e31d48c597f0687faaf020b2",
+            "title": "wild boar from COTW game",
+            "authorName": "Game-animal ripper",
+            "licenseName": "CC Attribution-NonCommercial",
+            "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+            "sourceUrl": "https://sketchfab.com/3d-models/wild-boar-from-cotw-game-c1316617e31d48c597f0687faaf020b2",
+            "thumbnailUrl": "https://media.sketchfab.com/models/c1316617e31d48c597f0687faaf020b2/thumbnails/8ed1c445d2414d7ab01751ab031af213/fd74f27bf6e04ca48bdc8bc5b186ded5.jpeg",
+            "localFilePath": "assets/models/sketchfab/wild-boar-from-cotw-game-c1316617e3.glb",
+            "importedAt": "2026-04-13T02:29:32+00:00",
+            "hash": "2c9446087bcf5379544064c04e0e70760b8d52c3",
+            "cacheKey": "2fcbdb4033e118519335f1c420137f870b7ffd39",
+            "importFormat": "glb",
+            "downloadSourceType": "glb",
+            "isAnimated": true,
+            "animationCount": 84,
+            "attribution": "Game-animal ripper | CC Attribution-NonCommercial"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+*.exe
+*.blockmap
+
+# Development
+.env
+.env.local
+.vscode/
+.idea/
+
+# Temporary files
+tmp_*
+*.tmp
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Assets (too large for Git)
+assets/models/**/*.glb
+assets/textures/download.jpg
+data/cache/
+
+# IDE
+*.swp
+*.swo
+*~
